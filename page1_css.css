@@ -1,0 +1,270 @@
+.sidenav {
+  height: 100%;
+  width: 60px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #f8f9fa;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+/* Style for the navigation links */
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 18px;
+  color: #000;
+  display: block;
+}
+
+/* Style for the navigation links on hover */
+.sidenav a:hover {
+  background-color: #ddd;
+}
+
+/* Style for the main content */
+.main {
+  margin-left: 40px; /* Same width as the sidebar */
+  margin-top: 0px;  
+  margin-right: 0px;
+
+}
+
+.col1{
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.column1{
+  background-color: lightgrey;
+  min-height: 100vh;
+  padding: 20px;
+  padding-left: 20px;
+  height: 100%;
+  
+}
+.profile-picture {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin-right: 20px;
+}
+
+/* Text container */
+.text-container {
+  flex: 1;
+}
+
+.dropdown-menu {
+  background-color: #007bff;
+  border-radius: 0;
+}
+
+.dropdown-item {
+  color: #fff;
+}
+
+.dropdown-item:hover {
+  background-color: #0056b3;
+}
+
+.dropdown-divider {
+  background-color: #0056b3;
+}
+
+.info{
+  padding-top: 20px;
+}
+
+.column2{
+  padding-top: 20px;
+  padding-left:30px;
+}
+
+.box {
+  height: 60%;
+  width: 80%;
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-right: 0px;
+
+  margin-top: 40px;
+  margin-right: 0px;
+  margin-left: 10px;
+}
+
+.box {
+  flex-grow: 1;
+}
+
+.btn {
+  width: 90%;
+  padding: 10px;
+  background-color: blue;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+a{
+  padding-top: 5px;
+  color: blue;
+  display: block;
+  text-align: center;
+}
+
+
+
+.navbar-nav {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+  padding-top: 0px;
+}
+
+.nav-link {
+  padding: 10px;
+  color: #fff;
+}
+
+.below{
+  padding-top: 40pz;
+}
+
+.top{
+  padding-bottom: 20px;
+}
+.ncenter{
+
+  margin-bottom: auto;
+  margin-top: auto;
+
+}
+.cent{
+  padding-bottom: 20px;
+
+}
+
+ .col-sm {
+      margin-bottom: 20px;
+}
+
+
+/*.navbar-nav1 a {
+  display: inline-flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  
+}*/
+
+
+
+
+ @media (max-width: 767.98px) {
+      /* Custom class for mobile navbar */
+     .navbar-nav1 {
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        max-height: 120px;
+        right: 0;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        /*display: flex;
+        flex-direction: row;
+        justify-items: space-evenly;*/
+        color: black;
+        background-color: black;
+        z-index: 1;
+       
+        /*display: flex;
+        justify-content: space-around;
+        z-index: 1;
+        flex-direction: row;*/
+        
+      }
+
+      .main{
+        overflow-x: hidden;
+        margin-left: 0px;
+        margin-right: 10px;
+      }
+
+      .column1{
+        position: relative;
+        margin: 0px;
+        padding: 50px;
+        width: 100%;
+
+      }
+      .column2{
+        
+        margin: 0px;
+        padding: 50px;
+        width: 100%;
+
+      }
+      .box
+      {
+       margin-left: 40px;
+        margin-right: 0px;
+
+        height: 85%;
+      }
+      
+      .c
+      {
+        flex:  0 0 33.33%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+       flex-wrap: wrap;
+        max-width: 200px;
+
+      }
+
+      
+      .sidenav{
+        display: none;
+        /*visibility: hidden;*/
+      }
+    }
+
+
+    /*@media (min-width: 767.99px) {*/
+      /* Custom class for mobile navbar */
+      ./*desk-navbar {
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background-color: #333;
+        padding: 5px 0;
+        display: flex;
+        justify-content: space-around;
+      }
+      
+      .mobile-navbar .nav-link {
+        color: white;
+      }
+    }*/
+
+/*.navbar {
+      background-color: #333;
+      display: flex;
+      justify-content: space-around;
+    }*/
